@@ -1,0 +1,15 @@
+<div class="form-group">
+  <input type="text" class="form-control" id="user" ng-model="controller.username" placeholder="Name">
+</div>
+
+<irontec-simple-chat
+  messages="controller.messages"
+  username="controller.username"
+  input-placeholder-text="Send Message"
+  submit-button-text="Send!"
+  title="Socket Chat"
+  theme="material"
+  submit-function="controller.sendMessage"
+  visible="controller.visible"
+  expand-on-new="controller.expandOnNew">
+</irontec-simple-chat>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+
+
+<script type="text/javascript" src="https://code.angularjs.org/1.5.0/angular.js"></script>
+<script type="text/javascript" src="https://code.angularjs.org/1.5.0/angular-route.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+<!-- simple chat box -->
+<link rel="stylesheet" href="resource/component/simple_chat/src/css/style.css">
+<link rel="stylesheet" href="resource/component/simple_chat/src/css/themes.css">
+<script src="resource/component/simple_chat/src/scripts/index.js"></script>
+
+<script src="resource/component/scroll_glue/src/scrollglue.js"></script>
+
+
+<script src="js/core.js"></script>
+<script src="js/route/route.js"></script>
+<script src="js/controller/ChatController.js"></script>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body ng-app="core">
+
+	<div class="container-fluid">
+		<div class="col-md-6 col-md-offset-3">
+
+			<ng-view></ng-view>
+
+		</div>
+
+
+	</div>
+
+</body>
+</html>
